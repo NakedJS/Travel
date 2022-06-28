@@ -1,0 +1,36 @@
+.slider {
+
+}
+.h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    margin: 87px 46px 206px 135px;
+
+    color: #293C2D;
+}
+.h2 {
+    margin: 10px 33px 68px 135px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.2em;
+
+    color: #84C551;
+}
+.text {
+    margin: 87px 135px 31px 534px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #293C2D;
+}
+.hello {
+    background-image: url(IMG-20200409-WA0140 1.png);
+}
