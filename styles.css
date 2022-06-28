@@ -1,0 +1,75 @@
+/*Стиль на тег*/
+p {
+    color: #0a0a0a;
+    font: 15px/1.5 sans-serif;
+        /*
+        serif — шрифты с засечками (антиквы). Ярким представителем таких шрифтов является Times New Roman
+        sans-serif — шрифты без засечек (гротеск). Наиболее знакомыми такими шрифтами являются Arial и Verdana
+        cursive — курсивные шрифты
+        fantasy — декоративные шрифты. Это семейство используется реже всего. Дело в том, что декоративные шрифты слишком разные, чтобы они были взаимозаменяемые
+        monospace — моноширинные шрифты. К ним относятся шрифты, в которых все символы имеют одинаковую ширину. Очень часто их используют программисты в текстовых редакторах
+        */
+    font-family: Verdana, sans-serif;
+}
+
+        /*селекция по id*/
+#shapka {
+    border: 3px solid #2b2b2b;
+    font-size: 34px;
+    padding: 10px;
+    background-color: #629755;
+}
+#Latest_news {
+    color: brown;
+    padding: 15px;
+    text-align: center;
+}
+        /*Классификатор для css*/
+.paragraph1 {
+    color: navy;
+    font-size: 22px;
+}
+        /*жирный шрифт*/
+.name {
+    font-weight: bold;
+    font-size: 34px;
+    color: #76039b;
+    padding: 15px;
+    text-align: left;
+}
+        /*жирный*/
+.fast {
+    color: #76039b;
+    font-weight: bold;
+}
+        /*курсив*/
+.italic {
+    font-style: italic;
+}
+        /*Подчеркивание
+        -underline — Подчёркивание текста
+        -line-through — Перечёркивание текста
+        -overline — Надчёркивание текста*/
+.web {
+    text-decoration: underline;
+}
+        /*Межстрочный интервалл*/
+        /*Самым распространённым межстрочным интервалом является значение в 150% от размера шрифта.
+        Если текст размером 14 пикселей, то межстрочный интервал желательно установить не менее 21 пикселя.*/
+.line-height {
+    line-height: 18px;
+}
+        /*семейство шрифтов
+        Вначале идут стилистические правила, затем размер шрифта и его межстрочный интервал и потом семейство шрифта.
+        Это важно, так как при другом порядке браузер может некорректно обработать результат.*/
+.font1 {
+    font: italic bold 24px Arial, sans-serif;
+}
+.card {
+    color: aliceblue;
+    background-color: #76039b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
