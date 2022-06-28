@@ -7,12 +7,12 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 47px;
-    margin: 87px 46px 206px 135px;
+    margin: 87px 46px 0px 135px;
 
     color: #293C2D;
 }
 .h2 {
-    margin: 10px 33px 68px 135px;
+    margin: 10px 33px 0px 135px;
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 500;
@@ -23,7 +23,7 @@
     color: #84C551;
 }
 .text {
-    margin: 87px 135px 31px 534px;
+    margin: 88px 135px 0px 206px;
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
@@ -32,5 +32,10 @@
     color: #293C2D;
 }
 .hello {
-    background-image: url(IMG-20200409-WA0140 1.png);
+    background-image: url("IMG-20200409-WA0140 1.png");
+    width: 371px;
+    height: 214px;
+    left: 138px;
+    top: 931px;
+    margin: 68px 25px 8px 138px;
 }
